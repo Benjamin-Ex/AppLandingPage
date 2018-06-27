@@ -326,6 +326,28 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+#features {
+  background: #f9f9f9;
+  text-align: center; }
+  #features h2 {
+    margin: 80px; }
+  #features .cards {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px; }
+  #features .feature-card {
+    background: #fff;
+    padding: 30px 40px 10px 40px;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
+  #features h3 {
+    margin: 10px 0 0; }
+  #features .device {
+    border-top: 3px solid #00adff; }
+  #features .shoe {
+    border-top: 3px solid #5300e6; }
+  #features .heart {
+    border-top: 3px solid #53e4c3; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -380,3 +402,18 @@ hr {
     background: #fff;
     color: #00adff;
     box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
+
+#brands ul {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  align-items: center; }
+  @media only screen and (max-width: 550px) {
+    #brands ul {
+      grid-template-columns: repeat(3, auto); } }
+  #brands ul li {
+    list-style: none;
+    justify-self: center; }
+    @media only screen and (max-width: 550px) {
+      #brands ul li {
+        padding-top: 20px; } }
