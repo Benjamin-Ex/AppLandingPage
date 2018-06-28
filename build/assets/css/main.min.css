@@ -343,7 +343,7 @@ hr {
     transform-origin: 100%;
     z-index: -1; }
   #features h2 {
-    margin: 80px; }
+    margin: 80px 0; }
   #features .cards {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -363,6 +363,23 @@ hr {
 
 .heart {
   border-top: 3px solid #53e4c3; }
+
+#discount {
+  margin-top: 65px; }
+
+.discountLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .discountLayout .offer {
+    width: 40%;
+    margin: 0 auto; }
+  .discountLayout .offer .button {
+    background: #009efd;
+    background: linear-gradient(140deg, #009efd 0%, #15c9cb 48%, #2af598 100%);
+    color: #fff;
+    padding: 15px 80px;
+    font-size: 16px; }
 
 .flex-video {
   height: 0;
