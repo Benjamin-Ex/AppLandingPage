@@ -326,6 +326,29 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+.main-nav {
+  display: flex;
+  margin-top: 20px;
+  padding: 0; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+  .main-nav a {
+    display: block;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease; }
+  .main-nav a:hover, .main-nav a:active {
+    color: #5300e6; }
+  .main-nav a.download {
+    background: #fff;
+    color: #00adff;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
+
 #features {
   background: #f9f9f9;
   text-align: center;
@@ -417,6 +440,18 @@ hr {
     content: url("../img/Google_Play.png");
     transform: scale(0.8); }
 
+#footer {
+  text-align: center;
+  padding: 60px 0; }
+  #footer li {
+    list-style: none; }
+    #footer li a {
+      padding: 0 20px;
+      text-transform: uppercase;
+      transition: all 0.3s ease; }
+    #footer li a:hover, #footer li a:active {
+      color: #5300e6; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -451,26 +486,6 @@ hr {
   #header img {
     width: 60%;
     max-width: 500px; }
-
-.main-nav {
-  display: flex;
-  margin-top: 20px;
-  padding: 0; }
-  .main-nav li {
-    list-style: none; }
-  .main-nav li:first-child {
-    margin-right: auto; }
-  .main-nav a {
-    display: block;
-    color: #fff;
-    border-radius: 4px;
-    padding: 10px 50px;
-    text-decoration: none;
-    text-transform: uppercase; }
-  .main-nav a.download {
-    background: #fff;
-    color: #00adff;
-    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
 
 #brands ul {
   padding: 20px 0;
