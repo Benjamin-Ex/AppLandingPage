@@ -328,7 +328,20 @@ hr {
 
 #features {
   background: #f9f9f9;
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  height: 500px; }
+  #features::after {
+    bottom: 0;
+    background: inherit;
+    position: absolute;
+    content: " ";
+    height: 100%;
+    left: 0;
+    right: 0;
+    transform: skewY(-10deg);
+    transform-origin: 100%;
+    z-index: -1; }
   #features h2 {
     margin: 80px; }
   #features .cards {
@@ -341,12 +354,15 @@ hr {
     box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
   #features h3 {
     margin: 10px 0 0; }
-  #features .device {
-    border-top: 3px solid #00adff; }
-  #features .shoe {
-    border-top: 3px solid #5300e6; }
-  #features .heart {
-    border-top: 3px solid #53e4c3; }
+
+.device {
+  border-top: 3px solid #00adff; }
+
+.shoe {
+  border-top: 3px solid #5300e6; }
+
+.heart {
+  border-top: 3px solid #53e4c3; }
 
 .flex-video {
   height: 0;
