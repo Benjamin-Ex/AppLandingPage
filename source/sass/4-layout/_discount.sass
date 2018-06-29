@@ -5,10 +5,19 @@
   display: flex
   align-items: center
   justify-content: center
+  @media only screen and (max-width: 680px)
+    flex-direction: column
+
+  img
+    @media only screen and (max-width: 680px)
+      width: 80%
 
   .offer
     width: 40%
     margin: 0 auto
+    @media only screen and (max-width: 680px)
+      width: 100%
+      text-align: center
 
   .offer .button
     background: rgb(0,158,253)
